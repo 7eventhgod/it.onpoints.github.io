@@ -1,0 +1,437 @@
+{
+  "common": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "projects": "Projects",
+    "contact": "Contact",
+    "letsTalk": "Let's Talk",
+    "loading": "Loading..."
+  },
+  "home": {
+    "hero": {
+      "title": "OnPoints IT",
+      "subtitle": "Premium technology solutions that drive your business forward. From infrastructure to cybersecurity, we deliver excellence.",
+      "getStarted": "Get Started",
+      "viewProjects": "View Projects"
+    },
+    "services": {
+      "title": "Our Services",
+      "subtitle": "Comprehensive technology solutions designed to elevate your business infrastructure and security."
+    },
+    "stats": {
+      "title": "Why Choose OnPoints IT",
+      "subtitle": "Trusted by businesses worldwide for reliable technology solutions",
+      "projects": "Projects Completed",
+      "uptime": "Uptime Guarantee",
+      "support": "Support Available",
+      "experience": "Years Experience"
+    },
+    "cta": {
+      "title": "Ready to Transform Your Business?",
+      "description": "Let's discuss how OnPoints IT can help you achieve your technology goals with our premium solutions.",
+      "button": "Start Your Project"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "About OnPoints IT",
+      "subtitle": "We are a premium technology company dedicated to delivering exceptional IT solutions that empower businesses to achieve their digital transformation goals."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "To provide world-class technology solutions that enable businesses to thrive in the digital age. We combine technical expertise with innovative thinking to deliver results that matter."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "To be the leading technology partner for businesses worldwide, known for our reliability, innovation, and commitment to excellence in every project we undertake."
+    },
+    "values": {
+      "title": "Our Values",
+      "subtitle": "The principles that guide everything we do.",
+      "excellence": {
+        "title": "Excellence",
+        "description": "We strive for perfection in every project, delivering solutions that exceed expectations."
+      },
+      "partnership": {
+        "title": "Partnership",
+        "description": "We build long-term relationships with our clients, becoming their trusted technology partner."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "We stay ahead of technology trends to provide cutting-edge solutions."
+      },
+      "reliability": {
+        "title": "Reliability",
+        "description": "Our 99.9% uptime guarantee and 24/7 support ensure your business never stops."
+      }
+    },
+    "timeline": {
+      "title": "Our Journey",
+      "subtitle": "Key milestones in our company's growth and evolution."
+    },
+    "team": {
+      "title": "Meet Our Team",
+      "subtitle": "The experts behind our success."
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Get In Touch",
+      "subtitle": "Ready to transform your business with premium technology solutions? Let's discuss your project and how we can help you achieve your goals."
+    },
+    "info": {
+      "email": {
+        "title": "Email",
+        "details": "info@onpoints.it",
+        "description": "Send us an email anytime"
+      },
+      "phone": {
+        "title": "Phone",
+        "details": "+994 10 255 58 76",
+        "description": "Mon-Fri from 9am to 6pm"
+      },
+      "office": {
+        "title": "Office",
+        "details": "Baku, Azerbaijan",
+        "description": "Visit our headquarters"
+      },
+      "support": {
+        "title": "Support",
+        "details": "24/7 Available",
+        "description": "We're here when you need us"
+      }
+    },
+    "form": {
+      "title": "Send us a message",
+      "name": {
+        "label": "Full Name *",
+        "placeholder": "Your full name"
+      },
+      "email": {
+        "label": "Email Address *",
+        "placeholder": "your@email.com"
+      },
+      "company": {
+        "label": "Company Name",
+        "placeholder": "Your company name"
+      },
+      "message": {
+        "label": "Message *",
+        "placeholder": "Tell us about your project and requirements..."
+      },
+      "submit": "Send Message"
+    },
+    "whyChoose": {
+      "title": "Why Choose OnPoints IT?",
+      "support": "24/7 technical support and monitoring",
+      "uptime": "99.9% uptime guarantee on all services",
+      "team": "Experienced team of certified professionals",
+      "solutions": "Custom solutions tailored to your needs"
+    }
+  },
+  "services": {
+    "iptv": {
+      "title": "IPTV Solutions",
+      "tagline": "Professional IPTV streaming infrastructure that scales with your business needs and delivers exceptional viewing experiences.",
+      "features": {
+        "title": "Advanced IPTV Features",
+        "streaming": {
+          "title": "Live Streaming",
+          "description": "High-quality live streaming with adaptive bitrate technology for optimal viewing experience across all devices."
+        },
+        "multiDevice": {
+          "title": "Multi-Device Support",
+          "description": "Seamless streaming across smartphones, tablets, smart TVs, and web browsers with synchronized user experiences."
+        },
+        "cdn": {
+          "title": "Global CDN Integration",
+          "description": "Worldwide content delivery network ensures fast loading times and minimal buffering for global audiences."
+        },
+        "analytics": {
+          "title": "Advanced Analytics",
+          "description": "Comprehensive viewing analytics and user behavior insights to optimize content strategy and engagement."
+        },
+        "security": {
+          "title": "Content Security",
+          "description": "Enterprise-grade DRM protection and secure streaming protocols to protect your valuable content assets."
+        },
+        "performance": {
+          "title": "High Performance",
+          "description": "Optimized infrastructure capable of handling thousands of concurrent streams with 99.98% uptime guarantee."
+        }
+      },
+      "whyOnPoints": {
+        "title": "Why Choose OnPoints for IPTV?",
+        "subtitle": "Industry-leading performance and reliability metrics that set us apart."
+      },
+      "stats": {
+        "users": "Concurrent Users",
+        "uptime": "Uptime Guarantee",
+        "quality": "Ultra HD Quality"
+      },
+      "cta": {
+        "title": "Ready to Launch Your IPTV Platform?",
+        "description": "Let's discuss your streaming requirements and build a custom IPTV solution that exceeds your expectations."
+      }
+    },
+    "servers": {
+      "title": "Server Management",
+      "tagline": "Comprehensive server solutions with 24/7 monitoring, optimization, and enterprise-grade security for maximum performance.",
+      "features": {
+        "title": "Complete Server Solutions",
+        "monitoring": {
+          "title": "24/7 Monitoring",
+          "description": "Continuous server monitoring with real-time alerts and proactive issue resolution to prevent downtime."
+        },
+        "optimization": {
+          "title": "Performance Optimization",
+          "description": "Advanced server tuning and optimization techniques to maximize performance and resource utilization."
+        },
+        "backup": {
+          "title": "Automated Backups",
+          "description": "Reliable backup solutions with multiple restore points and disaster recovery planning for data protection."
+        },
+        "security": {
+          "title": "Security Hardening",
+          "description": "Comprehensive security measures including regular updates, vulnerability assessments, and access controls."
+        },
+        "cloud": {
+          "title": "Cloud Integration",
+          "description": "Seamless cloud migration and hybrid infrastructure management for scalability and flexibility."
+        },
+        "maintenance": {
+          "title": "Proactive Maintenance",
+          "description": "Regular maintenance schedules and preventive measures to ensure optimal server health and longevity."
+        }
+      },
+      "whyOnPoints": {
+        "title": "Why Trust OnPoints with Your Servers?",
+        "subtitle": "Proven track record of maintaining critical infrastructure with exceptional reliability."
+      },
+      "stats": {
+        "uptime": "Uptime Achievement",
+        "monitoring": "Monitoring Coverage",
+        "performance": "Performance Improvement"
+      },
+      "cta": {
+        "title": "Optimize Your Server Infrastructure",
+        "description": "Let our experts assess your current setup and design a server management strategy that ensures peak performance."
+      }
+    },
+    "network": {
+      "title": "Network Infrastructure",
+      "tagline": "Robust network architectures designed for seamless connectivity, optimal performance, and future-ready scalability.",
+      "features": {
+        "title": "Network Excellence",
+        "design": {
+          "title": "Custom Network Design",
+          "description": "Tailored network architectures designed to meet your specific business requirements and growth projections."
+        },
+        "wifi": {
+          "title": "WiFi 6 Solutions",
+          "description": "Latest wireless technology implementation for high-speed, reliable connectivity across your entire facility."
+        },
+        "vpn": {
+          "title": "Secure VPN Setup",
+          "description": "Enterprise-grade VPN solutions for secure remote access and site-to-site connectivity."
+        },
+        "management": {
+          "title": "Bandwidth Management",
+          "description": "Intelligent traffic shaping and QoS policies to ensure critical applications get priority bandwidth."
+        },
+        "connectivity": {
+          "title": "Seamless Connectivity",
+          "description": "Redundant connections and failover systems to maintain continuous network availability."
+        },
+        "performance": {
+          "title": "Performance Optimization",
+          "description": "Network optimization techniques to minimize latency and maximize throughput for all applications."
+        }
+      },
+      "whyOnPoints": {
+        "title": "Why Choose OnPoints for Networking?",
+        "subtitle": "Delivering network solutions that power business growth and digital transformation."
+      },
+      "stats": {
+        "speed": "Speed Improvement",
+        "coverage": "Facility Coverage",
+        "reduction": "Downtime Reduction"
+      },
+      "cta": {
+        "title": "Transform Your Network Infrastructure",
+        "description": "Ready to upgrade your network? Let's design a solution that supports your current needs and future growth."
+      }
+    },
+    "development": {
+      "title": "Software Development",
+      "tagline": "Custom software solutions built with modern technologies to drive innovation and accelerate your digital transformation.",
+      "features": {
+        "title": "Development Expertise",
+        "web": {
+          "title": "Web Applications",
+          "description": "Modern, responsive web applications built with cutting-edge frameworks and optimized for performance."
+        },
+        "mobile": {
+          "title": "Mobile Development",
+          "description": "Native and cross-platform mobile applications that deliver exceptional user experiences across all devices."
+        },
+        "api": {
+          "title": "API Development",
+          "description": "Robust, scalable APIs and microservices architecture for seamless system integration and data exchange."
+        },
+        "cloud": {
+          "title": "Cloud Integration",
+          "description": "Cloud-native development and migration services leveraging AWS, Azure, and Google Cloud platforms."
+        },
+        "performance": {
+          "title": "Performance Focus",
+          "description": "Optimized code and architecture patterns that ensure fast loading times and smooth user interactions."
+        },
+        "scalable": {
+          "title": "Scalable Solutions",
+          "description": "Future-proof applications designed to grow with your business and handle increasing user demands."
+        }
+      },
+      "whyOnPoints": {
+        "title": "Why Partner with OnPoints for Development?",
+        "subtitle": "Proven expertise in delivering software solutions that drive business success."
+      },
+      "stats": {
+        "growth": "Business Growth",
+        "conversion": "Higher Conversion",
+        "mobile": "Mobile Traffic"
+      },
+      "cta": {
+        "title": "Build Your Next Software Solution",
+        "description": "Ready to bring your ideas to life? Let's discuss your project and create software that exceeds expectations."
+      }
+    },
+    "cybersecurity": {
+      "title": "Cybersecurity",
+      "tagline": "Advanced security solutions to protect your digital assets with comprehensive threat detection and response capabilities.",
+      "features": {
+        "title": "Security Excellence",
+        "audits": {
+          "title": "Security Audits",
+          "description": "Comprehensive security assessments to identify vulnerabilities and strengthen your defense posture."
+        },
+        "testing": {
+          "title": "Penetration Testing",
+          "description": "Ethical hacking and vulnerability testing to discover security weaknesses before malicious actors do."
+        },
+        "compliance": {
+          "title": "Compliance Management",
+          "description": "Ensure adherence to industry standards and regulations including GDPR, HIPAA, and ISO 27001."
+        },
+        "response": {
+          "title": "Incident Response",
+          "description": "24/7 security monitoring and rapid incident response to minimize impact of security breaches."
+        },
+        "training": {
+          "title": "Security Training",
+          "description": "Employee security awareness training to build a human firewall against social engineering attacks."
+        },
+        "protection": {
+          "title": "Advanced Protection",
+          "description": "Multi-layered security architecture with AI-powered threat detection and automated response systems."
+        }
+      },
+      "whyOnPoints": {
+        "title": "Why Trust OnPoints with Your Security?",
+        "subtitle": "Certified security experts with a proven track record of protecting critical business assets."
+      },
+      "stats": {
+        "blocked": "Threats Blocked",
+        "compliance": "Compliance Rate",
+        "breaches": "Security Breaches"
+      },
+      "cta": {
+        "title": "Secure Your Digital Assets",
+        "description": "Don't wait for a security incident. Let's assess your current security posture and build robust defenses."
+      }
+    },
+    "firewall": {
+      "title": "Firewall Solutions",
+      "tagline": "Enterprise-grade firewall implementation with AI-powered threat detection and automated security response systems.",
+      "features": {
+        "title": "Advanced Firewall Technology",
+        "nextGen": {
+          "title": "Next-Gen Firewalls",
+          "description": "State-of-the-art firewall technology with deep packet inspection and application-aware filtering."
+        },
+        "prevention": {
+          "title": "Intrusion Prevention",
+          "description": "Advanced IPS capabilities to detect and block sophisticated attacks in real-time."
+        },
+        "analysis": {
+          "title": "Traffic Analysis",
+          "description": "Comprehensive network traffic analysis and reporting for security insights and compliance."
+        },
+        "management": {
+          "title": "Centralized Management",
+          "description": "Unified firewall management console for simplified policy deployment and monitoring."
+        },
+        "intelligence": {
+          "title": "Threat Intelligence",
+          "description": "Real-time threat intelligence feeds to stay ahead of emerging security threats and attack vectors."
+        },
+        "automated": {
+          "title": "Automated Response",
+          "description": "AI-powered automated threat response to neutralize attacks before they can cause damage."
+        }
+      },
+      "whyOnPoints": {
+        "title": "Why Choose OnPoints Firewall Solutions?",
+        "subtitle": "Industry-leading firewall technology with expert implementation and ongoing support."
+      },
+      "stats": {
+        "detection": "Threat Detection",
+        "response": "Response Time",
+        "reduction": "False Positive Reduction"
+      },
+      "cta": {
+        "title": "Fortify Your Network Perimeter",
+        "description": "Ready to upgrade your firewall infrastructure? Let's design a security solution that protects your business."
+      }
+    }
+  },
+  "team": {
+    "title": "Meet Our Team",
+    "subtitle": "The visionary leaders and expert professionals driving OnPoints IT's success and innovation in technology solutions.",
+    "leadership": {
+      "title": "Leadership Team",
+      "subtitle": "Experienced leaders guiding our company's vision and strategic direction."
+    },
+    "expertise": "Areas of Expertise",
+    "haji": {
+      "role": "Co-CEO",
+      "bio": "Visionary leader driving strategic growth and innovation in enterprise technology solutions."
+    },
+    "murad": {
+      "role": "Co-CEO",
+      "bio": "Technical architect and innovation strategist with expertise in scalable technology infrastructure."
+    },
+    "values": {
+      "title": "Our Core Values",
+      "subtitle": "The principles that guide our team and define our approach to technology excellence.",
+      "excellence": {
+        "title": "Excellence",
+        "description": "We strive for perfection in every project, delivering solutions that exceed expectations."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "We stay ahead of technology trends to provide cutting-edge solutions for our clients."
+      },
+      "partnership": {
+        "title": "Partnership",
+        "description": "We build long-term relationships, becoming trusted technology partners for our clients."
+      }
+    },
+    "preview": {
+      "title": "Leadership Team",
+      "subtitle": "Meet the visionary leaders driving OnPoints IT's success and innovation.",
+      "cta": "Meet the Full Team"
+    }
+  }
+}

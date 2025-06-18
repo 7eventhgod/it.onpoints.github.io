@@ -1,0 +1,437 @@
+{
+  "common": {
+    "home": "Ana Səhifə",
+    "about": "Haqqımızda",
+    "services": "Xidmətlər",
+    "projects": "Layihələr",
+    "contact": "Əlaqə",
+    "letsTalk": "Danışaq",
+    "loading": "Yüklənir..."
+  },
+  "home": {
+    "hero": {
+      "title": "OnPoints IT",
+      "subtitle": "Biznesinizi irəli aparan premium texnoloji həllər. İnfrastrukturdan kibertəhlükəsizliyə qədər - biz üstünlük təmin edirik.",
+      "getStarted": "Başlayaq",
+      "viewProjects": "Layihələrə bax"
+    },
+    "services": {
+      "title": "Xidmətlərimiz",
+      "subtitle": "Biznes infrastrukturunuzu və təhlükəsizliyinizi yüksəltmək üçün hazırlanmış hərtərəfli texnoloji həllər."
+    },
+    "stats": {
+      "title": "Niyə OnPoints IT?",
+      "subtitle": "Dünya üzrə şirkətlər etibarlı texnoloji həllər üçün bizə etibar edir",
+      "projects": "Tamamlanmış layihə",
+      "uptime": "İş vaxtı zəmanəti",
+      "support": "Dəstək mövcuddur",
+      "experience": "İl təcrübə"
+    },
+    "cta": {
+      "title": "Biznesinizi transformasiya etməyə hazırsınız?",
+      "description": "OnPoints IT-in premium həllərimizlə texnoloji məqsədlərinizə çatmağınıza necə kömək edə biləcəyini müzakirə edək.",
+      "button": "Layihəyə başla"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "OnPoints IT Haqqında",
+      "subtitle": "Biz, bizneslərin rəqəmsal transformasiya məqsədlərinə çatmasına kömək edən istisnai IT həlləri təqdim edən premium texnoloji şirkətik."
+    },
+    "mission": {
+      "title": "Missiyamız",
+      "description": "Bizneslərin rəqəmsal dövrdə inkişaf etməsinə imkan verən dünya səviyyəli texnoloji həllər təqdim etmək. Biz mənalı nəticələr əldə etmək üçün texniki təcrübəni innovativ düşüncə ilə birləşdiririk."
+    },
+    "vision": {
+      "title": "Vizyonumuz",
+      "description": "Hər layihədə etibarlılığı, innovasiyaları və mükəmməlliyə sadiqliyi ilə tanınan, dünya üzrə bizneslər üçün aparıcı texnoloji tərəfdaş olmaq."
+    },
+    "values": {
+      "title": "Dəyərlərimiz",
+      "subtitle": "Bütün fəaliyyətimizi idarə edən prinsiplər.",
+      "excellence": {
+        "title": "Mükəmməllik",
+        "description": "Gözləntiləri aşan həllər təqdim edərək, hər layihədə mükəmməlliyə çalışırıq."
+      },
+      "partnership": {
+        "title": "Tərəfdaşlıq",
+        "description": "Müştərilərimizlə etibarlı texnoloji tərəfdaş olaraq uzunmüddətli münasibətlər qururuq."
+      },
+      "innovation": {
+        "title": "İnnovasiya",
+        "description": "Qabaqcıl həllər təqdim etmək üçün texnoloji trendləri qabaqlayırıq."
+      },
+      "reliability": {
+        "title": "Etibarlılıq",
+        "description": "99.9% iş vaxtı zəmanətimiz və 24/7 dəstəyimiz biznesinizin davamlılığını təmin edir."
+      }
+    },
+    "timeline": {
+      "title": "Yolumuz",
+      "subtitle": "Şirkətimizin böyüməsində və inkişafında əsas mərhələlər."
+    },
+    "team": {
+      "title": "Komandamız",
+      "subtitle": "Uğurumuzun arxasında duran ekspertlər."
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Bizimlə Əlaqə",
+      "subtitle": "Premium texnoloji həllərlə biznesinizi transformasiya etməyə hazırsınız? Layihənizi və məqsədlərinizə çatmağınıza necə kömək edə biləcəyimizi müzakirə edək."
+    },
+    "info": {
+      "email": {
+        "title": "E-poçt",
+        "details": "info@onpoints.it",
+        "description": "İstənilən vaxt bizə yazın"
+      },
+      "phone": {
+        "title": "Telefon",
+        "details": "+994 10 255 58 76",
+        "description": "B.e - Ş. 09:00 - 18:00"
+      },
+      "office": {
+        "title": "Ofis",
+        "details": "Bakı, Azərbaycan",
+        "description": "Baş ofisimizi ziyarət edin"
+      },
+      "support": {
+        "title": "Dəstək",
+        "details": "24/7 mövcuddur",
+        "description": "Sizə ehtiyacınız olduqda buradayıq"
+      }
+    },
+    "form": {
+      "title": "Bizə mesaj göndərin",
+      "name": {
+        "label": "Tam ad *",
+        "placeholder": "Tam adınız"
+      },
+      "email": {
+        "label": "E-poçt ünvanı *",
+        "placeholder": "sizin@email.com"
+      },
+      "company": {
+        "label": "Şirkət adı",
+        "placeholder": "Şirkətinizin adı"
+      },
+      "message": {
+        "label": "Mesaj *",
+        "placeholder": "Layihəniz və tələbləriniz haqqında bizə məlumat verin..."
+      },
+      "submit": "Mesaj göndər"
+    },
+    "whyChoose": {
+      "title": "Niyə OnPoints IT?",
+      "support": "24/7 texniki dəstək və monitorinq",
+      "uptime": "Bütün xidmətlər üçün 99.9% iş vaxtı zəmanəti",
+      "team": "Sertifikatlı mütəxəssislərdən ibarət təcrübəli komanda",
+      "solutions": "Ehtiyaclarınıza uyğunlaşdırılmış fərdi həllər"
+    }
+  },
+  "services": {
+    "iptv": {
+      "title": "IPTV Həlləri",
+      "tagline": "Biznes ehtiyaclarınıza uyğun miqyaslanan və müstəsna baxış təcrübəsi təqdim edən peşəkar IPTV yayım infrastrukturu.",
+      "features": {
+        "title": "Qabaqcıl IPTV Xüsusiyyətləri",
+        "streaming": {
+          "title": "Canlı Yayım",
+          "description": "Bütün cihazlarda optimal baxış təcrübəsi üçün adaptiv bitrate texnologiyası ilə yüksək keyfiyyətli canlı yayım."
+        },
+        "multiDevice": {
+          "title": "Çox Cihaz Dəstəyi",
+          "description": "Sinxronlaşdırılmış istifadəçi təcrübələri ilə smartfonlar, planşetlər, smart TV-lər və veb brauzerlər arasında problemsiz yayım."
+        },
+        "cdn": {
+          "title": "Qlobal CDN İnteqrasiyası",
+          "description": "Dünya miqyasında məzmun çatdırılma şəbəkəsi qlobal auditoriya üçün sürətli yükləmə vaxtları və minimal bufering təmin edir."
+        },
+        "analytics": {
+          "title": "Qabaqcıl Analitika",
+          "description": "Məzmun strategiyası və cəlbediciliyi optimallaşdırmaq üçün hərtərəfli baxış analitikası və istifadəçi davranışı anlayışları."
+        },
+        "security": {
+          "title": "Məzmun Təhlükəsizliyi",
+          "description": "Dəyərli məzmun aktivlərinizi qorumaq üçün müəssisə səviyyəsində DRM qorunması və təhlükəsiz yayım protokolları."
+        },
+        "performance": {
+          "title": "Yüksək Performans",
+          "description": "99.98% işləmə vaxtı zəmanəti ilə minlərlə eyni vaxtda axını idarə edə bilən optimallaşdırılmış infrastruktur."
+        }
+      },
+      "whyOnPoints": {
+        "title": "IPTV üçün niyə OnPoints seçməli?",
+        "subtitle": "Bizi fərqləndirən sənaye liderliyi performans və etibarlılık göstəriciləri."
+      },
+      "stats": {
+        "users": "Eyni Vaxtda İstifadəçilər",
+        "uptime": "İşləmə Vaxtı Zəmanəti",
+        "quality": "Ultra HD Keyfiyyət"
+      },
+      "cta": {
+        "title": "IPTV Platformanızı İşə Salmağa Hazırsınız?",
+        "description": "Yayım tələblərinizi müzakirə edək və gözləntilərinizi aşan fərdi IPTV həlli yaradaq."
+      }
+    },
+    "servers": {
+      "title": "Server İdarəetməsi",
+      "tagline": "Maksimum performans üçün 24/7 monitorinq, optimallaşdırma və müəssisə səviyyəsində təhlükəsizlik ilə hərtərəfli server həlləri.",
+      "features": {
+        "title": "Tam Server Həlləri",
+        "monitoring": {
+          "title": "24/7 Monitorinq",
+          "description": "Dayanma vaxtının qarşısını almaq üçün real vaxt xəbərdarlıqları və proaktiv problem həlli ilə davamlı server monitorinqi."
+        },
+        "optimization": {
+          "title": "Performans Optimallaşdırması",
+          "description": "Performansı və resurs istifadəsini maksimuma çıxarmaq üçün qabaqcıl server tənzimləmə və optimallaşdırma texnikaları."
+        },
+        "backup": {
+          "title": "Avtomatik Ehtiyat Nüsxələr",
+          "description": "Məlumat qorunması üçün çoxlu bərpa nöqtələri və fəlakət bərpası planlaması ilə etibarlı ehtiyat həlləri."
+        },
+        "security": {
+          "title": "Təhlükəsizlik Gücləndirilməsi",
+          "description": "Müntəzəm yeniləmələr, zəiflik qiymətləndirmələri və giriş nəzarətləri daxil olmaqla hərtərəfli təhlükəsizlik tədbirləri."
+        },
+        "cloud": {
+          "title": "Bulud İnteqrasiyası",
+          "description": "Miqyaslanabilirlik və çeviklik üçün problemsiz bulud miqrasiyası və hibrid infrastruktur idarəetməsi."
+        },
+        "maintenance": {
+          "title": "Proaktiv Texniki Xidmət",
+          "description": "Optimal server sağlamlığı və uzunömürlülüyü təmin etmək üçün müntəzəm texniki xidmət cədvəlləri və qabaqlayıcı tədbirlər."
+        }
+      },
+      "whyOnPoints": {
+        "title": "Serverlərinizi niyə OnPoints-a etibar etməli?",
+        "subtitle": "Müstəsna etibarlılıqla kritik infrastrukturu saxlamaqda sübut edilmiş uğur tarixi."
+      },
+      "stats": {
+        "uptime": "İşləmə Vaxtı Nailiyyəti",
+        "monitoring": "Monitorinq Əhatəsi",
+        "performance": "Performans Təkmilləşdirilməsi"
+      },
+      "cta": {
+        "title": "Server İnfrastrukturunuzu Optimallaşdırın",
+        "description": "Mütəxəssislərimizin mövcud qurğunuzu qiymətləndirməsinə və pik performansı təmin edən server idarəetmə strategiyası hazırlamasına icazə verin."
+      }
+    },
+    "network": {
+      "title": "Şəbəkə İnfrastrukturu",
+      "tagline": "Problemsiz əlaqə, optimal performans və gələcəyə hazır miqyaslanabilirlik üçün nəzərdə tutulmuş möhkəm şəbəkə arxitekturaları.",
+      "features": {
+        "title": "Şəbəkə Mükəmməlliyi",
+        "design": {
+          "title": "Fərdi Şəbəkə Dizaynı",
+          "description": "Xüsusi biznes tələblərinizə və artım proqnozlarınıza uyğun hazırlanmış şəbəkə arxitekturaları."
+        },
+        "wifi": {
+          "title": "WiFi 6 Həlləri",
+          "description": "Bütün obyektinizdə yüksək sürətli, etibarlı əlaqə üçün ən son simsiz texnologiya tətbiqi."
+        },
+        "vpn": {
+          "title": "Təhlükəsiz VPN Qurulması",
+          "description": "Təhlükəsiz uzaqdan giriş və sayt-sayt əlaqəsi üçün müəssisə səviyyəsində VPN həlləri."
+        },
+        "management": {
+          "title": "Bant Genişliyi İdarəetməsi",
+          "description": "Kritik tətbiqlərin prioritet bant genişliyi almasını təmin etmək üçün ağıllı trafik formalaşdırması və QoS siyasətləri."
+        },
+        "connectivity": {
+          "title": "Problemsiz Əlaqə",
+          "description": "Davamlı şəbəkə mövcudluğunu saxlamaq üçün ehtiyat əlaqələr və failover sistemləri."
+        },
+        "performance": {
+          "title": "Performans Optimallaşdırması",
+          "description": "Bütün tətbiqlər üçün gecikməni minimuma endirmək və throughput-u maksimuma çıxarmaq üçün şəbəkə optimallaşdırma texnikaları."
+        }
+      },
+      "whyOnPoints": {
+        "title": "Şəbəkə üçün niyə OnPoints seçməli?",
+        "subtitle": "Biznes artımını və rəqəmsal transformasiyanı gücləndirən şəbəkə həlləri təqdim edirik."
+      },
+      "stats": {
+        "speed": "Sürət Təkmilləşdirilməsi",
+        "coverage": "Obyekt Əhatəsi",
+        "reduction": "Dayanma Vaxtı Azalması"
+      },
+      "cta": {
+        "title": "Şəbəkə İnfrastrukturunuzu Çevirin",
+        "description": "Şəbəkənizi yeniləməyə hazırsınız? Mövcud ehtiyaclarınızı və gələcək artımınızı dəstəkləyən həll dizayn edək."
+      }
+    },
+    "development": {
+      "title": "Proqram Təminatı İnkişafı",
+      "tagline": "İnnovasiyanı həyata keçirmək və rəqəmsal transformasiyanızı sürətləndirmək üçün müasir texnologiyalarla qurulmuş fərdi proqram həlləri.",
+      "features": {
+        "title": "İnkişaf Təcrübəsi",
+        "web": {
+          "title": "Veb Tətbiqləri",
+          "description": "Qabaqcıl framework-lərlə qurulmuş və performans üçün optimallaşdırılmış müasir, responsiv veb tətbiqləri."
+        },
+        "mobile": {
+          "title": "Mobil İnkişaf",
+          "description": "Bütün cihazlarda müstəsna istifadəçi təcrübələri təqdim edən yerli və çarpaz platform mobil tətbiqləri."
+        },
+        "api": {
+          "title": "API İnkişafı",
+          "description": "Problemsiz sistem inteqrasiyası və məlumat mübadiləsi üçün möhkəm, miqyaslanan API-lər və mikroxidmətlər arxitekturu."
+        },
+        "cloud": {
+          "title": "Bulud İnteqrasiyası",
+          "description": "AWS, Azure və Google Cloud platformalarından istifadə edən bulud-yerli inkişaf və miqrasiya xidmətləri."
+        },
+        "performance": {
+          "title": "Performans Diqqəti",
+          "description": "Sürətli yükləmə vaxtları və hamar istifadəçi qarşılıqlı əlaqələrini təmin edən optimallaşdırılmış kod və arxitektura nümunələri."
+        },
+        "scalable": {
+          "title": "Miqyaslanan Həllər",
+          "description": "Biznesinizlə birlikdə böyümək və artan istifadəçi tələblərini qarşılamaq üçün nəzərdə tutulmuş gələcəyə davamlı tətbiqlər."
+        }
+      },
+      "whyOnPoints": {
+        "title": "İnkişaf üçün niyə OnPoints ilə tərəfdaşlıq etməli?",
+        "subtitle": "Biznes uğurunu həyata keçirən proqram həlləri təqdim etməkdə sübut edilmiş təcrübə."
+      },
+      "stats": {
+        "growth": "Biznes Artımı",
+        "conversion": "Daha Yüksək Konversiya",
+        "mobile": "Mobil Trafik"
+      },
+      "cta": {
+        "title": "Növbəti Proqram Həllinizi Yaradın",
+        "description": "İdeyalarınızı həyata keçirməyə hazırsınız? Layihənizi müzakirə edək və gözləntiləri aşan proqram yaradaq."
+      }
+    },
+    "cybersecurity": {
+      "title": "Kibertəhlükəsizlik",
+      "tagline": "Hərtərəfli təhdid aşkarlanması və cavab imkanları ilə rəqəmsal aktivlərinizi qorumaq üçün qabaqcıl təhlükəsizlik həlləri.",
+      "features": {
+        "title": "Təhlükəsizlik Mükəmməlliyi",
+        "audits": {
+          "title": "Təhlükəsizlik Auditləri",
+          "description": "Zəiflikləri müəyyən etmək və müdafiə mövqeyinizi gücləndirmək üçün hərtərəfli təhlükəsizlik qiymətləndirmələri."
+        },
+        "testing": {
+          "title": "Penetrasiya Testləri",
+          "description": "Zərərli aktörlar etməzdən əvvəl təhlükəsizlik zəifliklərini kəşf etmək üçün etik hacking və zəiflik testləri."
+        },
+        "compliance": {
+          "title": "Uyğunluq İdarəetməsi",
+          "description": "GDPR, HIPAA və ISO 27001 daxil olmaqla sənaye standartları və qaydalarına riayəti təmin edin."
+        },
+        "response": {
+          "title": "İnsidenta Cavab",
+          "description": "Təhlükəsizlik pozuntularının təsirini minimuma endirmək üçün 24/7 təhlükəsizlik monitorinqi və sürətli insidenta cavab."
+        },
+        "training": {
+          "title": "Təhlükəsizlik Təlimi",
+          "description": "Sosial mühəndislik hücumlarına qarşı insan firewall-ı qurmaq üçün işçi təhlükəsizlik məlumatlılığı təlimi."
+        },
+        "protection": {
+          "title": "Qabaqcıl Qorunma",
+          "description": "AI-gücləndirici təhdid aşkarlanması və avtomatik cavab sistemləri ilə çoxqatlı təhlükəsizlik arxitekturu."
+        }
+      },
+      "whyOnPoints": {
+        "title": "Təhlükəsizliyinizi niyə OnPoints-a etibar etməli?",
+        "subtitle": "Kritik biznes aktivlərini qorumaqda sübut edilmiş uğur tarixi olan sertifikatlı təhlükəsizlik mütəxəssisləri."
+      },
+      "stats": {
+        "blocked": "Bloklanmış Təhdidlər",
+        "compliance": "Uyğunluq Dərəcəsi",
+        "breaches": "Təhlükəsizlik Pozuntuları"
+      },
+      "cta": {
+        "title": "Rəqəmsal Aktivlərinizi Qoruyun",
+        "description": "Təhlükəsizlik insidentini gözləməyin. Mövcud təhlükəsizlik mövqeyinizi qiymətləndirək və möhkəm müdafiə quraq."
+      }
+    },
+    "firewall": {
+      "title": "Firewall Həlləri",
+      "tagline": "AI-gücləndirici təhdid aşkarlanması və avtomatik təhlükəsizlik cavab sistemləri ilə müəssisə səviyyəsində firewall tətbiqi.",
+      "features": {
+        "title": "Qabaqcıl Firewall Texnologiyası",
+        "nextGen": {
+          "title": "Yeni Nəsil Firewall-lar",
+          "description": "Dərin paket yoxlanması və tətbiq-məlumatlı filtrasiya ilə ən müasir firewall texnologiyası."
+        },
+        "prevention": {
+          "title": "İntruziya Qarşısıalınması",
+          "description": "Real vaxtda mürəkkəb hücumları aşkar etmək və bloklamaq üçün qabaqcıl IPS imkanları."
+        },
+        "analysis": {
+          "title": "Trafik Analizi",
+          "description": "Təhlükəsizlik anlayışları və uyğunluq üçün hərtərəfli şəbəkə trafik analizi və hesabat."
+        },
+        "management": {
+          "title": "Mərkəzləşdirilmiş İdarəetmə",
+          "description": "Sadələşdirilmiş siyasət yerləşdirilməsi və monitorinq üçün vahid firewall idarəetmə konsolu."
+        },
+        "intelligence": {
+          "title": "Təhdid Kəşfiyyatı",
+          "description": "Yeni təhlükəsizlik təhdidləri və hücum vektorlarından qabaqda qalmaq üçün real vaxt təhdid kəşfiyyatı axınları."
+        },
+        "automated": {
+          "title": "Avtomatik Cavab",
+          "description": "Hücumları zərər verməzdən əvvəl zərərsizləşdirmək üçün AI-gücləndirici avtomatik təhdid cavabı."
+        }
+      },
+      "whyOnPoints": {
+        "title": "OnPoints Firewall Həllərini niyə seçməli?",
+        "subtitle": "Mütəxəssis tətbiqi və davamlı dəstəklə sənaye liderliyi firewall texnologiyası."
+      },
+      "stats": {
+        "detection": "Təhdid Aşkarlanması",
+        "response": "Cavab Vaxtı",
+        "reduction": "Yalançı Müsbət Azalması"
+      },
+      "cta": {
+        "title": "Şəbəkə Perimetrinizi Gücləndin",
+        "description": "Firewall infrastrukturunuzu yeniləməyə hazırsınız? Biznesinizi qoruyan təhlükəsizlik həlli dizayn edək."
+      }
+    }
+  },
+  "team": {
+    "title": "Komandamızla Tanış Olun",
+    "subtitle": "OnPoints IT-nin uğuru və texnologiya həllərində innovasiyasını həyata keçirən vizioner liderlər və mütəxəssis peşəkarlar.",
+    "leadership": {
+      "title": "Rəhbərlik Komandası",
+      "subtitle": "Şirkətimizin vizyonu və strateji istiqamətini yönləndirən təcrübəli liderlər."
+    },
+    "expertise": "Təcrübə Sahələri",
+    "haji": {
+      "role": "Həm-CEO",
+      "bio": "Müəssisə texnologiya həllərində strateji artım və innovasiyanı həyata keçirən vizioner lider."
+    },
+    "murad": {
+      "role": "Həm-CEO",
+      "bio": "Miqyaslanan texnologiya infrastrukturunda təcrübəsi olan texniki memar və innovasiya strategisti."
+    },
+    "values": {
+      "title": "Əsas Dəyərlərimiz",
+      "subtitle": "Komandamızı yönləndirən və texnologiya mükəmməlliyinə yanaşmamızı müəyyən edən prinsiplər.",
+      "excellence": {
+        "title": "Mükəmməllik",
+        "description": "Hər layihədə mükəmməllik üçün çalışırıq, gözləntiləri aşan həllər təqdim edirik."
+      },
+      "innovation": {
+        "title": "İnnovasiya",
+        "description": "Müştərilərimiz üçün qabaqcıl həllər təqdim etmək üçün texnologiya tendensiyalarından qabaqda qalırıq."
+      },
+      "partnership": {
+        "title": "Tərəfdaşlıq",
+        "description": "Uzunmüddətli əlaqələr qururuq, müştərilərimiz üçün etibarlı texnologiya tərəfdaşları oluruq."
+      }
+    },
+    "preview": {
+      "title": "Rəhbərlik Komandası",
+      "subtitle": "OnPoints IT-nin uğuru və innovasiyasını həyata keçirən vizioner liderlərlə tanış olun.",
+      "cta": "Tam Komanda ilə Tanış Olun"
+    }
+  }
+}
