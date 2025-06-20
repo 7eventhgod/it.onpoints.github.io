@@ -21,11 +21,37 @@ export default function Contact() {
     message: "",
   })
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
-    // Handle form submission
-    console.log("Form submitted:", formData)
-  }
+  const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>("idle");
+  const [errorMsg, setErrorMsg] = useState("");
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setStatus("loading");
+    setErrorMsg("");
+    try {
+      const res = await fetch("/contact/api/send-email", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          company: formData.company,
+          message: formData.message,
+        }),
+      });
+      if (res.ok) {
+        setStatus("success");
+        setFormData({ name: "", email: "", company: "", message: "" });
+      } else {
+        const data = await res.json();
+        setErrorMsg(data.error || "Failed to send message.");
+        setStatus("error");
+      }
+    } catch (err) {
+      setErrorMsg("Failed to send message.");
+      setStatus("error");
+    }
+  };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData((prev) => ({
@@ -38,7 +64,7 @@ export default function Contact() {
     {
       icon: <Mail className="w-6 h-6" />,
       title: "Email",
-      details: "info@onpoints.it",
+      details: <a href="mailto:info@onpoints.it" className="hover:underline text-cyan-400">info@onpoints.it</a>,
       description: "Send us an email anytime",
     },
     {
@@ -183,9 +209,16 @@ export default function Contact() {
                     <Button
                       type="submit"
                       className="w-full bg-cyan-500 hover:bg-cyan-600 text-black font-semibold py-3 rounded-xl"
+                      disabled={status === "loading"}
                     >
-                      {t('contact.form.submit')}
+                      {status === "loading" ? "Sending..." : t('contact.form.submit')}
                     </Button>
+                    {status === "success" && (
+                      <p className="text-green-500 text-center mt-2">Message sent successfully!</p>
+                    )}
+                    {status === "error" && (
+                      <p className="text-red-500 text-center mt-2">{errorMsg}</p>
+                    )}
                   </form>
                 </CardContent>
               </Card>
