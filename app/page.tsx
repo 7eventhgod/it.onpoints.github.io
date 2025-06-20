@@ -128,7 +128,7 @@ export default function HomePage() {
               size="lg"
               className="border-gray-600 text-white hover:bg-gray-800 px-8 py-3 rounded-xl"
             >
-              <Link href="/projects">{t('home.hero.viewProjects')}</Link>
+              <Link href="/contact">{t('home.hero.contactUs')}</Link>
             </Button>
           </motion.div>
         </div>

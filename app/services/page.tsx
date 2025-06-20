@@ -250,7 +250,7 @@ export default function ServicesPage() {
                 size="lg"
                 className="border-gray-600 text-white hover:bg-gray-800 px-8 py-3 rounded-xl"
               >
-                <Link href="/projects">View Case Studies</Link>
+                <Link href="/contact">Contact Us</Link>
               </Button>
             </div>
           </motion.div>

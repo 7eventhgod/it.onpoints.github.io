@@ -16,7 +16,7 @@ export function Header() {
     { name: t("common.home"), href: "/" },
     { name: t("common.about"), href: "/about" },
     { name: t("common.services"), href: "/services" },
-    { name: t("common.projects"), href: "/projects" },
+
     { name: t("common.contact"), href: "/contact" },
   ]
 
