@@ -265,12 +265,8 @@ export default function Contact() {
               className="space-y-8"
             >
               {/* Map */}
-              <div className="h-96 lg:h-auto rounded-3xl bg-gradient-to-br from-cyan-400 via-lime-400 to-orange-500 p-1 shadow-2xl">
-                <div className="bg-black h-full w-full rounded-2xl p-1.5">
-                  <div className="h-full w-full rounded-xl overflow-hidden">
-                    <Map />
-                  </div>
-                </div>
+              <div className="h-96 lg:h-auto rounded-3xl bg-black/50 ring-1 ring-cyan-400/30 shadow-2xl shadow-cyan-400/20 overflow-hidden">
+                <Map />
               </div>
 
               {/* Additional Info */}

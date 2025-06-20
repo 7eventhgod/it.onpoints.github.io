@@ -1,7 +1,11 @@
 "use client"
 
-import { Map, Marker } from "pigeon-maps"
+import { Map, Marker, Overlay } from "pigeon-maps"
 import { useRef, useState, useEffect } from 'react'
+
+const darkProvider = (x: number, y: number, z: number, dpr?: number): string => {
+  return `https://a.basemaps.cartocdn.com/dark_all/${z}/${x}/${y}${dpr && dpr >= 2 ? '@2x' : ''}.png`
+}
 
 const PigeonMap = () => {
   const position: [number, number] = [40.3515607, 49.8320842] // Coordinates for Sabah Residence
@@ -23,8 +27,13 @@ const PigeonMap = () => {
   return (
     <div ref={containerRef} style={{ cursor: 'pointer', height: '100%' }} title="Click to open in Google Maps" onClick={handleMapClick}>
       {height > 0 && (
-        <Map height={height} defaultCenter={position} defaultZoom={13}>
-          <Marker width={50} anchor={position} />
+        <Map height={height} provider={darkProvider} defaultCenter={position} defaultZoom={13} attribution={false}>
+          <Marker width={40} anchor={position} color={'#06b6d4'} />
+          <Overlay anchor={position} offset={[0, -25]}>
+            <div className="bg-black/70 text-white text-sm px-3 py-1.5 rounded-lg shadow-lg backdrop-blur-sm">
+              Click to open in Google Maps
+            </div>
+          </Overlay>
         </Map>
       )}
     </div>
