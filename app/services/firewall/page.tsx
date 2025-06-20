@@ -139,14 +139,14 @@ export default function FirewallPage() {
               <div className="relative bg-gradient-to-br from-gray-900 to-black rounded-2xl p-8 border border-gray-800">
                 <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 to-transparent rounded-2xl" />
                 <Image
-                  src="/placeholder.svg?height=400&width=500"
+                  src="/firewall.png"
                   alt="Firewall Solutions"
                   width={500}
                   height={400}
                   className="w-full h-auto rounded-lg"
                 />
                 <div className="absolute top-4 right-4">
-                  <Badge className="bg-cyan-500 text-black font-semibold">AI-Powered</Badge>
+                  <Badge className="bg-cyan-500 text-black font-semibold">Next-Gen Security</Badge>
                 </div>
               </div>
             </motion.div>
