@@ -53,6 +53,7 @@
     "next": "14.2.16",
     "next-themes": "^0.4.4",
     "nodemailer": "^7.0.3",
+    "pigeon-maps": "^0.22.1",
     "react": "^18",
     "react-day-picker": "8.10.1",
     "react-dom": "^18",
@@ -73,7 +74,8 @@
     "tailwindcss": "^3.4.17",
     "typescript": "^5"
   },
-  "description": "��#\u0000 \u0000o\u0000n\u0000p\u0000o\u0000i\u0000n\u0000t\u0000s\u0000.\u0000i\u0000t\u0000\r\u0000 \u0000",
+  "description": "onpoints.it",
+  "type": "module",
   "main": "index.js",
   "directories": {
     "lib": "lib"
@@ -85,7 +87,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/7eventhgod/it.onpoints.github.io/issues"
   },

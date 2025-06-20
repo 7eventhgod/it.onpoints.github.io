@@ -9,10 +9,16 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Mail, Phone, MapPin, Clock, Send } from "lucide-react"
+import dynamic from 'next/dynamic'
 import { useTranslation } from '@/hooks/useTranslation'
 
 export default function Contact() {
-  const { t } = useTranslation();
+      const { t } = useTranslation();
+
+  const Map = dynamic(() => import('../components/Map'), {
+    ssr: false,
+    loading: () => <div className="h-full w-full bg-gray-800 flex items-center justify-center rounded-lg"><p>Loading map...</p></div>,
+  });
 
   const [formData, setFormData] = useState({
     name: "",
@@ -60,6 +66,8 @@ export default function Contact() {
     }))
   }
 
+  const googleMapsUrl = `https://www.google.com/maps/place/Sabah+Residence/@40.3506373,49.8368512,14z/data=!4m6!3m5!1s0x40307d01fac64e89:0x84ad7cfa1113f36b!8m2!3d40.3515607!4d49.8320842!16s%2Fg%2F11fgm40hr_?entry=ttu&g_ep=EgoyMDI1MDYxNi4wIKXMDSoASAFQAw%3D%3D`;
+
   const contactInfo = [
     {
       icon: <Mail className="w-6 h-6" />,
@@ -103,14 +111,8 @@ export default function Contact() {
       <section className="py-20 px-4 bg-gray-900">
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {contactInfo.map((info, index) => (
-              <motion.div
-                key={info.title}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
-                viewport={{ once: true }}
-              >
+            {contactInfo.map((info, index) => {
+              const cardContent = (
                 <Card className="bg-black border-gray-800 hover:border-cyan-500 transition-all duration-300 h-full">
                   <CardContent className="p-6 text-center">
                     <div className="text-cyan-400 mb-4 flex justify-center">{info.icon}</div>
@@ -119,8 +121,38 @@ export default function Contact() {
                     <p className="text-gray-400 text-sm">{info.description}</p>
                   </CardContent>
                 </Card>
-              </motion.div>
-            ))}
+              );
+
+              if (info.title === 'Office') {
+                return (
+                  <motion.div
+                    key={info.title}
+                    initial={{ opacity: 0, y: 30 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.6, delay: index * 0.1 }}
+                    viewport={{ once: true }}
+                    className="h-full"
+                  >
+                    <a href={googleMapsUrl} target="_blank" rel="noopener noreferrer" className="block h-full">
+                      {cardContent}
+                    </a>
+                  </motion.div>
+                );
+              }
+
+              return (
+                <motion.div
+                  key={info.title}
+                  initial={{ opacity: 0, y: 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.6, delay: index * 0.1 }}
+                  viewport={{ once: true }}
+                  className="h-full"
+                >
+                  {cardContent}
+                </motion.div>
+              );
+            })}
           </div>
         </div>
       </section>
@@ -232,18 +264,14 @@ export default function Contact() {
               viewport={{ once: true }}
               className="space-y-8"
             >
-              {/* Map Placeholder */}
-              <Card className="bg-gray-900 border-gray-800">
-                <CardContent className="p-0">
-                  <div className="h-64 bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg flex items-center justify-center">
-                    <div className="text-center">
-                      <MapPin className="w-12 h-12 text-cyan-400 mx-auto mb-4" />
-                      <p className="text-gray-300">Interactive Map</p>
-                      <p className="text-gray-500 text-sm">Baku, Azerbaijan</p>
-                    </div>
+              {/* Map */}
+              <div className="h-96 lg:h-auto rounded-3xl bg-gradient-to-br from-cyan-400 via-lime-400 to-orange-500 p-1 shadow-2xl">
+                <div className="bg-black h-full w-full rounded-2xl p-1.5">
+                  <div className="h-full w-full rounded-xl overflow-hidden">
+                    <Map />
                   </div>
-                </CardContent>
-              </Card>
+                </div>
+              </div>
 
               {/* Additional Info */}
               <Card className="bg-gray-900 border-gray-800">
