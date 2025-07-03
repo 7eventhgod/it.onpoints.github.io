@@ -5,6 +5,7 @@ import "./globals.css"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { TranslationProvider } from "@/contexts/translation-context"
+import RootLoader from "./components/RootLoader"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
     description: "Professional technology solutions for businesses worldwide",
     type: "website",
   },
-    generator: 'v0.dev'
+  generator: 'v0.dev'
 }
 
 export default function RootLayout({
@@ -29,11 +30,13 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <body className={`${inter.className} bg-black text-white antialiased`}>
-        <TranslationProvider>
-          <Header />
-          <main>{children}</main>
-          <Footer />
-        </TranslationProvider>
+        <RootLoader>
+          <TranslationProvider>
+            <Header />
+            <main>{children}</main>     
+            <Footer />
+          </TranslationProvider>
+        </RootLoader>
       </body>
     </html>
   )
